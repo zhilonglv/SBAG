@@ -15,6 +15,12 @@ Pytorch==1.5.1
 # DataSet
 we conduct experiments on three benchmark dataset，Twitter15, Twitter16 and Weibo16.
 
+# Code
+* SocialBotTrain: The codes about pre-train social bot detection module, the $SocialBotTrain/model/Propagation.py$ is the module code,  $SocialBotTrain/model/trainer.py$ is used for the training process of social bot detection task.
+* dataset: The folder contains Twitter15, Twitter16 and Weibo16 datasets.
+* model: The codes about rumor detection module.
+* main: The code of the training process of rumor detection task.
+
 # run
 Before runing the code, you need to utilize Twitter API to crawl user characteristics based on user ID as the artical' Experimental setting and pre train the socail bot detection module.
 
