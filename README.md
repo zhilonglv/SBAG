@@ -1,7 +1,10 @@
 # Social Bot-Aware Graph Neural Network for Early Rumor Detection:
+![image](SBAG.png)
 Zhen Huang, Zhilong Lv, Xiaoyun Han, Binyang Li, Menglong Lu, Dongsheng Li. Social Bot-Aware Graph Neural Network for Early Rumor Detection
 Paper link: [Social Bot-Aware Graph Neural Network for Early Rumor Detection](https://aclanthology.org/2022.coling-1.580/)
-
+# Introduction:
+Early rumor detection is a key challenging task to prevent rumors from spreading widely. Sociological research shows that social bots’ behavior in the early stage has become the main reason for rumors’ wide spread. However, current models do not explicitly distinguish genuine users from social bots, and their failure in identifying rumors timely. Therefore, this paper aims at early rumor detection by accounting for social bots’ behavior, and presents a Social Bot-Aware Graph Neural Network, named SBAG. SBAG firstly pre-trains a multi-layer perception network to capture social bot features, and then constructs multiple graph neural networks by embedding the features to model the early propagation of posts, which is further used to detect rumors. Extensive experiments on three benchmark datasets show that SBAG achieves
+significant improvements against the baselines and also identifies rumors within 3 hours while maintaining more than 90% accuracy.
 # Dependencies:
 Gensim==3.7.2
 
