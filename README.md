@@ -25,7 +25,6 @@ we conduct experiments on three benchmark dataset，Twitter15, Twitter16 and Wei
 * main: The code of the training process of rumor detection task.
 
 # run
-Before runing the code, you need to utilize Twitter API to crawl user characteristics based on user ID as the artical' Experimental setting and pre train the socail bot detection module.
 ```
 python main.py
 ```
